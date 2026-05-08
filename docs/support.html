@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - ブクレジ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h3 {
+            color: #555;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        .faq-item {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .faq-answer {
+            color: #555;
+            margin-left: 10px;
+        }
+        
+        .contact-box {
+            background-color: #ecf0f1;
+            padding: 25px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        
+        .contact-method {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .feature-list {
+            display: grid;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .feature-item {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 3px solid #2ecc71;
+        }
+        
+        .icon {
+            display: inline-block;
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>サポート</h1>
+        <p class="subtitle">ブクレジ (Book Release Notifier) のサポートページへようこそ</p>
+        
+        <p>
+            このページでは、アプリの使い方、よくある質問、お問い合わせ方法などをご案内しています。
+            お困りの際は、まずよくある質問をご確認ください。
+        </p>
+
+        <h2>📱 アプリについて</h2>
+        <p>
+            <strong>ブクレジ</strong>は、お気に入りの作家の新刊発売日を自動で通知し、
+            カレンダーで管理できるiOSアプリです。
+        </p>
+
+        <div class="feature-list">
+            <div class="feature-item">
+                <span class="icon">📖</span>
+                <strong>発売予定リスト</strong>：登録作家の新刊を月別に表示
+            </div>
+            <div class="feature-item">
+                <span class="icon">📅</span>
+                <strong>カレンダー表示</strong>：発売予定を視覚的に管理
+            </div>
+            <div class="feature-item">
+                <span class="icon">👤</span>
+                <strong>お気に入り作家</strong>：作家ごとの通知ON/OFF設定
+            </div>
+            <div class="feature-item">
+                <span class="icon">🔔</span>
+                <strong>プッシュ通知</strong>：新刊発表・発売日リマインダー
+            </div>
+        </div>
+
+        <h2>❓ よくある質問（FAQ）</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">Q1. 通知が届きません</div>
+            <div class="faq-answer">
+                <p><strong>確認事項：</strong></p>
+                <ul>
+                    <li>アプリの通知設定がONになっているか確認してください（設定画面）</li>
+                    <li>iOSの設定 → 通知 → ブクレジ で通知が許可されているか確認</li>
+                    <li>作家ごとの通知設定がONになっているか確認（お気に入り画面）</li>
+                    <li>インターネット接続を確認してください</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q2. 作家を追加できません</div>
+            <div class="faq-answer">
+                <p><strong>対処方法：</strong></p>
+                <ul>
+                    <li>作家名を正確に入力してください（フルネーム推奨）</li>
+                    <li>インターネット接続を確認してください</li>
+                    <li>アプリを再起動してみてください</li>
+                    <li>作家名の表記を変えて検索してみてください（例：「東野圭吾」→「ひがしのけいご」）</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q3. 新刊情報が更新されません</div>
+            <div class="faq-answer">
+                <p><strong>対処方法：</strong></p>
+                <ul>
+                    <li>リリースリスト画面で下に引っ張ってリフレッシュ</li>
+                    <li>手動更新は5分に1回の制限があります</li>
+                    <li>自動更新は毎日実行されます</li>
+                    <li>アプリを再起動してみてください</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q4. アカウントを削除したい</div>
+            <div class="faq-answer">
+                <p><strong>削除手順：</strong></p>
+                <ol>
+                    <li>アプリを開く</li>
+                    <li>設定画面を開く</li>
+                    <li>「アカウント削除」をタップ</li>
+                    <li>確認画面で「削除」を選択</li>
+                </ol>
+                <p><strong>注意</strong>：削除後、すべてのデータが完全に削除されます。この操作は取り消せません。</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q5. 購入リンクが開けません</div>
+            <div class="faq-answer">
+                <p><strong>対処方法：</strong></p>
+                <ul>
+                    <li>インターネット接続を確認してください</li>
+                    <li>Safariまたはブラウザアプリが正常に動作するか確認</li>
+                    <li>アプリを最新バージョンに更新してください</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q6. パスワードを忘れました</div>
+            <div class="faq-answer">
+                <p><strong>リセット手順：</strong></p>
+                <ol>
+                    <li>ログイン画面で「パスワードを忘れた場合」をタップ</li>
+                    <li>登録メールアドレスを入力</li>
+                    <li>送信されたメールのリンクからパスワードをリセット</li>
+                </ol>
+            </div>
+        </div>
+
+        <h2>📖 使い方ガイド</h2>
+
+        <h3>初回セットアップ</h3>
+        <ol>
+            <li>アプリをダウンロードしてインストール</li>
+            <li>メールアドレスとパスワードでアカウント作成</li>
+            <li>メール認証を完了</li>
+            <li>お気に入り作家を追加</li>
+            <li>通知設定を確認</li>
+        </ol>
+
+        <h3>作家の追加方法</h3>
+        <ol>
+            <li>「お気に入り」タブを開く</li>
+            <li>画面右上の「+」ボタンをタップ</li>
+            <li>作家名を入力して検索</li>
+            <li>検索結果から作家を選択</li>
+            <li>通知設定を選択して「追加」</li>
+        </ol>
+
+        <h3>カレンダーへの追加</h3>
+        <ol>
+            <li>書籍詳細画面を開く</li>
+            <li>「カレンダーに追加」ボタンをタップ</li>
+            <li>または、カレンダー画面で「一括追加」を使用</li>
+            <li>iOSカレンダーアプリで確認</li>
+        </ol>
+
+        <h2>🐛 バグ報告</h2>
+        <p>
+            アプリに問題を発見された場合は、以下の方法でご報告ください：
+        </p>
+        <ul>
+            <li><strong>GitHub Issues</strong>: <a href="https://github.com/kimihiko/book-release-notifier-docs/issues" target="_blank">https://github.com/kimihiko/book-release-notifier-docs/issues</a></li>
+            <li><strong>メール</strong>: 下記のお問い合わせ先まで</li>
+        </ul>
+        <p>
+            バグ報告には、以下の情報を含めていただけると対応がスムーズです：
+        </p>
+        <ul>
+            <li>iOSバージョン</li>
+            <li>アプリバージョン</li>
+            <li>発生した問題の詳細</li>
+            <li>再現手順</li>
+            <li>スクリーンショット（可能であれば）</li>
+        </ul>
+
+        <h2>💡 機能リクエスト</h2>
+        <p>
+            新機能のご要望は、GitHubのIssuesまたはメールでお寄せください。
+            すべてのご意見を参考に、アプリの改善に努めます。
+        </p>
+
+        <div class="contact-box">
+            <h2>📧 お問い合わせ</h2>
+            <p>
+                上記で解決しない場合や、その他のご質問がございましたら、
+                以下の方法でお問い合わせください：
+            </p>
+
+            <div class="contact-method">
+                <h3>メールでのお問い合わせ</h3>
+                <p>
+                    <strong>メールアドレス</strong>: <a href="mailto:kimihikob@gmail.com">kimihikob@gmail.com</a><br>
+                    <strong>返信時間</strong>: 通常24-48時間以内
+                </p>
+                <p><small>※ メールには、お使いのiOSバージョンとアプリバージョンをご記載ください</small></p>
+            </div>
+
+            <div class="contact-method">
+                <h3>GitHubでのお問い合わせ</h3>
+                <p>
+                    <strong>リポジトリ</strong>: <a href="https://github.com/kimihiko/book-release-notifier-docs" target="_blank">book-release-notifier</a><br>
+                    <strong>Issues</strong>: <a href="https://github.com/kimihiko/book-release-notifier-docs/issues" target="_blank">バグ報告・機能リクエスト</a>
+                </p>
+            </div>
+        </div>
+
+        <h2>🔗 関連リンク</h2>
+        <ul>
+            <li><a href="https://kimihiko.github.io/book-release-notifier/privacy-policy.html">プライバシーポリシー</a></li>
+            <li><a href="https://github.com/kimihiko/book-release-notifier-docs">GitHubリポジトリ</a></li>
+            <li><a href="https://github.com/kimihiko/book-release-notifier-docs/blob/main/README.md">README</a></li>
+        </ul>
+
+        <h2>📱 システム要件</h2>
+        <ul>
+            <li><strong>対応OS</strong>: iOS 13.0以上</li>
+            <li><strong>インターネット接続</strong>: 必須</li>
+            <li><strong>通知権限</strong>: プッシュ通知を受け取る場合は必要</li>
+            <li><strong>カレンダー権限</strong>: カレンダー連携を使用する場合は必要</li>
+        </ul>
+
+        <h2>🔄 アップデート情報</h2>
+        <p>
+            アプリの最新情報やアップデート内容は、App Storeのアプリページまたは
+            GitHubのリリースノートでご確認いただけます。
+        </p>
+
+        <p style="margin-top: 40px; text-align: center; color: #7f8c8d; font-size: 14px;">
+            © 2026 ブクレジ. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
